@@ -47,7 +47,7 @@ function Navbar() {
           > 
             Logout
           </button>
-          <Link className="pt-4 btn btn-primary btn-sm text-xs md:btn-md tooltip tooltip-bottom" data-tip="Create" to='create'>Create</Link>
+          <Link className="pt-4 btn btn-primary btn-sm text-xs md:btn-md md:pb-3 tooltip tooltip-bottom" data-tip="Create" to='create'>Create</Link>
         </div>
       </div>
     </div>

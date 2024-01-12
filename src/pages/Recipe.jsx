@@ -15,7 +15,7 @@ function Recipe() {
     <div>
       <h1 className="text-3xl my-4 font-bold">Recipe:</h1>
       {document && <>
-        <div className="hero flex gap-5">
+        <div className="hero gap-5 flex">
           <div className="carousel carousel-center w-1/2 max-w-md space-x-4 rounded-box bg-neutral p-4">
             <div className="carousel-item">
               <img src={document.images[0]} className="object-cover rounded-xl h-[500px] md:h-full w-[150px] sm:w-[500px]" />
